@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#layout {
+    position: relative;
+    background: url('LayoutSZ.jpg') no-repeat center/contain;
+    width: 800px;
+    height: 600px;
+    border: 1px solid #ccc;
+}
+
+.layer {
+    position: absolute;
+    pointer-events: none;
+}
+
+label {
+    margin-right: 10px;
+}
+.area {
+    background-color: rgba(0, 128, 0, 0.5);
+    color: white;
+    padding: 2px 4px;
+}
+.gate {
+    background-color: rgba(0, 0, 255, 0.5);
+    color: white;
+    padding: 2px 4px;
+}
+.alert {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+}
+.alert.yellow {
+    background-color: yellow;
+    color: black;
+}
+.alert.orange {
+    background-color: orange;
+}
+.alert.red {
+    background-color: red;
+}
+.status {
+    background-color: lightgray;
+    padding: 2px 4px;
+}
+.worker {
+    background-color: #555;
+    color: white;
+    padding: 2px 4px;
+}
