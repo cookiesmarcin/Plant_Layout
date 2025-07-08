@@ -6,8 +6,8 @@ body {
 #layout {
     position: relative;
     background: url('LayoutSZ.jpg') no-repeat center/contain;
-    width: 800px;
-    height: 600px;
+    width: 1200px;
+    height: 900px;
     border: 1px solid #ccc;
 }
 
@@ -22,19 +22,19 @@ label {
 .area {
     background-color: rgba(0, 128, 0, 0.5);
     color: white;
-    padding: 2px 4px;
+    padding: 3px 6px;
 }
 .gate {
     background-color: rgba(0, 0, 255, 0.5);
     color: white;
-    padding: 2px 4px;
+    padding: 3px 6px;
 }
 .alert {
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     text-align: center;
-    line-height: 20px;
+    line-height: 30px;
     color: white;
 }
 .alert.yellow {
@@ -49,10 +49,10 @@ label {
 }
 .status {
     background-color: lightgray;
-    padding: 2px 4px;
+    padding: 3px 6px;
 }
 .worker {
     background-color: #555;
     color: white;
-    padding: 2px 4px;
+    padding: 3px 6px;
 }
